@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151028155353) do
+ActiveRecord::Schema.define(version: 20151028160845) do
+
+  create_table "posts", force: :cascade do |t|
+    t.string   "titulo",     limit: 255
+    t.text     "contenido",  limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
 
   create_table "publicacions", force: :cascade do |t|
     t.string   "titulo",     limit: 255

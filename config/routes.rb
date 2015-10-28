@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   get 'bienvenida/index'
   get 'publicacion' => 'publicacion#index'
   get 'publicacion/new' => 'publicacion#new'
