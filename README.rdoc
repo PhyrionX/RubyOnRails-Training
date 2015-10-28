@@ -26,3 +26,22 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+Para empezar con Ruby on rails descargamos el instalador de http://railsinstaller.org/en.
+
+Una vez instalado
+## Primeros pasos con Ruby on Rails
+
+Creamos un proyecto nuevo en ruby on rails
+
+	$> rails new nombre_proyecto
+
+Entramos al proyecto que hemos creado
+
+	$> cd nombre proyecto
+	
+Lanzamos el servidor	
+	
+	$> rails s
+	
+Una vez lanzado el servidor para ver nuestra app de prueba vamos a la siguiente url 127.0.0.1:3000
