@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get 'bienvenida/index'
-
+  get 'publicacion' => 'publicacion#index'
+  get 'publicacion/new' => 'publicacion#new'
+  post 'publicacion/create' => 'publicacion#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
